@@ -1,0 +1,18 @@
+{
+  "tickets": [
+    {
+      "title": "Get cats",
+      "body": "get 30 more cats",
+      "priority": "low",
+      "user_email": "catto@meow.dev",
+      "id": "L342HYt"
+    },
+    {
+      "title": "adsaffg",
+      "body": "dsgdf",
+      "priority": "low",
+      "user_email": "dhjsb@gklnds.meow",
+      "id": "O6ZGSd0"
+    }
+  ]
+}
