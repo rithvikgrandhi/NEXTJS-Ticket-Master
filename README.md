@@ -22,8 +22,8 @@ This Ticket Management App is a user-friendly platform designed to handle and di
 1. **Clone the repository:**
 
    ```bash
-   git clone [your-repo-link]
-   cd [your-repo-directory]
+   git clone [https://github.com/rithvikgrandhi/NEXTJS-Ticket-Master/]
+   cd NEXTJS-Ticket-Master
    ```
 
 2. **Install dependencies:**
