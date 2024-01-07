@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ticket Master App
+
+## About the App
+
+This Ticket Management App is a user-friendly platform designed to handle and display 'tickets' or tasks in an organized manner. Built using Next.js, it leverages the power of React for the frontend, providing an interactive and responsive user interface. The backend is powered by `json-server`, offering a simple yet effective way to simulate a RESTful API for managing ticket data.
+
+## Key Features
+
+- **View Tickets**: Displays all the open tickets in a card format.
+- **Create Tickets**: Allows users to create new tickets.
+- **Delete Tickets**: Users can delete tickets as needed.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Node.js
+- npm (Node Package Manager)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone [your-repo-link]
+   cd [your-repo-directory]
+   ```
 
-## Learn More
+2. **Install dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+   Inside the project directory, run:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Running the Application
 
-## Deploy on Vercel
+1. **Start the Next.js App:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   To start the Next.js server, run:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm run dev
+   # or
+   npm start
+   ```
+
+   This will start the Next.js development server on [http://localhost:3000](http://localhost:3000). Navigate to this URL in your browser to view the app.
+
+2. **Start the JSON Server:**
+
+   Open a new terminal window and run:
+
+   ```bash
+   json-server --watch --port 4000 ./_data/db.json
+   ```
+
+   This will start the JSON server, which the Next.js app will use as a backend.
+
+## Additional Information
+
+- For production deployment steps, please refer to the Next.js deployment documentation.
+- Ensure both the Next.js app and `json-server` are running simultaneously for the app to function properly.
+
+---
